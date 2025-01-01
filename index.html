@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c3a38bf267.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/c3a38bf267.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <i class="fa-solid fa-hippo"></i>
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#Portfolio">Portfolio</a></li>
+                        <li><a href="#certificate">Certificate</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <section class="firstSection">
+                    <div class="leftSection">
+                        <div class="header-text">
+                            <p>Web Developer</p>
+                            <h1>Hi, I'm <span>Srushti Nagesh</span><br>from India</h1>
+                        </div>
+                    </div>
+                    <div class="rightSection">
+                        <img src="working-girl.avif" alt="Working Girl">
+                    </div>
+                </section>
+            </div>
+        </div>
+    
+    
+        
+        
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="work.jpg" alt="Work Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am currently pursuing my Master of Computer Applications (MCA), where I am honing my skills and deepening my knowledge in software development and web technologies. With a strong passion for creating functional and visually appealing designs, I specialize in HTML and CSS to build responsive and user-friendly websites.
+
+                       <br> In addition to my technical expertise, I am continuously expanding my skill set by exploring advanced web development concepts, frameworks, and tools. My goal is to develop innovative solutions that blend creativity with technology, ensuring a seamless user experience.
+                        
+                       <br> I am also a dedicated learner, excited to take on challenging projects and collaborate with teams to achieve excellence in every endeavor. When I'm not coding, I enjoy staying updated with the latest trends in the tech world and sharpening my problem-solving skills.
+                        
+                       <br> Let’s connect and bring ideas to life!.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills', this)">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience', this)">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education', this)">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li>Designing Web/App interfaces</li>
+                            <li>Web app Development</li>
+                            <li>Power BI</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                           <P>Still studying I'm good at Designing web pages, have worked in few mini projects</P>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Masters in Computer Application</span><br>Acharya Institute of Technology</li>
+                            <li><span>Bachelor's in Computer Science</span><br>Mysore University</li>
+                            <li><span>Pre University College</span><br>Master's College</li>
+                            <li><span>School</span><br>Vijaya English School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                
+                <h3>Project 1</h3>
+                <a>View Project</a>
+            </div>
+            <div class="work">
+                
+                <h3>Project 2</h3>
+                <a>View Project</a>
+            </div>
+            <div class="work">
+               
+                <h3>Project 3</h3>
+                <a>View Project</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="certificate">
+    <div class="container">
+        <h1 class="sub-title">Certificates</h1>
+        <div class="certificate-list">
+            <div class="certificate-item">
+                <img src="CERTIFICATE 1.jpeg" alt="Certificate 1">
+                <h3>AWS Academy Graduate-AWS Academy Cloud Foundation</h3>
+                <p>Issued by: AWS Academy</p>
+            </div>
+            <div class="certificate-item">
+                <img src="CERTIFICATE 2.jpeg" alt="Certificate 2">
+                <h3>Software Engineering</h3>
+                <p>Issued by: Infosys</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="Contact">
+    <div class="container">
+        <h1 class="sub-title">Contact Me</h1>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3 class="contact-subtitle">Address:</h3>
+                <p>Sri Gaviranga, SBI Bank Road, Jayanagar 2nd Stage, Hassan, Karnataka, India</p>
+                <h3 class="contact-subtitle">Email:</h3>
+                <p>srushtinagesh815@gmail.com</p>
+                <h3 class="contact-subtitle">Phone:</h3>
+                <p>(+91) 8147 931 941</p>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>Srushti Nagesh</p>
+</footer>
+
+<script>
+    
+    function opentab(tabname, element) {
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        
+        for (let tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (let tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+
+        
+        element.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+</body>
+</html>

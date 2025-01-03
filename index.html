@@ -37,7 +37,6 @@
             </div>
         </div>
     
-    
         
         
     <div id="about">
@@ -161,6 +160,10 @@
     </div>
 </div>
 
+<div>
+    <p>Visitor Count: <span id="visit-count">0</span></p>
+</div>
+
 <footer>
     <p>2025 Srushti Nagesh | All rights reserved</p>
 </footer>
@@ -181,6 +184,21 @@
         element.classList.add("active-link");
         document.getElementById(tabname).classList.add("active-tab");
     }
+    document.addEventListener('DOMContentLoaded', () => {
+            const visitCountKey = 'visitCount';
+            let visitCount = localStorage.getItem(visitCountKey);
+
+            if (!visitCount) {
+                visitCount = 0;
+            } else {
+                visitCount = parseInt(visitCount, 10);
+            }
+
+            visitCount++;
+            localStorage.setItem(visitCountKey, visitCount);
+
+            document.getElementById('visit-count').textContent = visitCount;
+        });
 </script>
 </body>
 </html>
